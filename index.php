@@ -1,5 +1,6 @@
 <?php
-$connection = new mysqli('localhost','root','password','docker_php');
+
+$connection = new mysqli('localhost','root','secret','docker_php','4306');
 $query = "select * from users";
 $data = mysqli_query($connection,$query);
 if ($data){

@@ -1,5 +1,5 @@
 <?php
-$connection = new mysqli('localhost','root','password','docker_php');
+$connection = new mysqli('localhost','root','secret','docker_php','4306');
 
 if (isset($_POST['submit'])){
     $name = $_POST['name'];
